@@ -7,3 +7,4 @@ https://docs.google.com/spreadsheets/d/145puP2MfQGXYXo_0A_jenqNSkzhoZR1gBRPopWXs
 https://dota2.gamepedia.com/Table_of_hero_attributes - Different hero stats table  
 https://liquipedia.net/dota2/Hero_Roles - Hero roles, can be scrapped probably  
 https://dota2.gamepedia.com/Role - More hero roles, can be scrapped probably  
+http://gta.st.ewi.tudelft.nl/datasets/ - A couple more DotA datasets + other games  
