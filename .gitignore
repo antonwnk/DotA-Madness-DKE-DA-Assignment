@@ -124,3 +124,8 @@ dmypy.json
 
 # Personal files
 jerry_proposal/
+
+# Data
+*.csv
+*.jsonl
+*.zip
