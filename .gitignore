@@ -126,6 +126,8 @@ dmypy.json
 jerry_proposal/
 
 # Data
-*.csv
+train_features.csv #these two can be downloaded from Kaggle
+train_features.csv
+train_targets.csv
 *.jsonl
 *.zip
