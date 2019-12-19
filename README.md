@@ -4,10 +4,10 @@
 
 ### Approach
 The analysis was split into two sections, each answering different questions.
-Consequenlty, the code is also split into 2 files.
+Consequently, the code is also split into 2 files.
 
 ### Common part
-Both notebooks start from a common code-base which covers the integration of several different data-scources and provides several functions to allow querying the data.
+Both notebooks start from a common code-base which covers the integration of several different data sources and provides functions to allow querying the data.
 
 ### Part 1
 Attempts to answer the following question: 
@@ -20,8 +20,8 @@ Attempts to answer the following question:
 First, heroes which are highest and lowest in the computed statistics are presented. The results seem to be consistent with what a DotA player would also know from gameplay experience (most gold for Alchemist, most last hits for Magina, least wards placed for Spectre, least played hero Chen). <br>
 Scatter plots are also generated for each pair of variables along with histograms for each variable and the obvious linear relationships can be seen where the variables have causal relationships (strength stat and hero health / last hit count and gold earned etc.)
 
-Second, PCA models are build on the three variants of the dataset: **only statistics**, **only hero stats** and **both**.
-Projections on first 2 principal components with the data colored by both hero stat and role are presented, along with the corresponding loading plots.
+Second, PCA models are built on the three variants of the dataset: **only statistics**, **only hero stats** and **both**.
+Projections on the first 2 principal components with the data colored by both hero stat and role are presented, along with the corresponding loading plots.
 
 While the hero roles fail to emerge as clusters in all of the PCA models, the hero stat is nicely clustering in all three.
 The hero stat would definitely be expected to cluster on the models including the hero stats values, as they have a direct relationship, but some degree of separation can be observed in the first principal component of the model only containing hero statistics.
